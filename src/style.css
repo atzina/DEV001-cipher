@@ -1,0 +1,28 @@
+
+body {
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+.bienvenida {
+  text-align: center;
+  margin-top: 20px;
+  color:crimson;
+}
+
+.acertijos {
+  background-color: #000;
+  color:#CC3333;
+  border:2px;
+  font-family: monospace;
+  border-color: blue;
+  border-style: hidden;
+  border-radius: 12px;
+  padding: 5px;
+  width:500px;
+  height:700px;
+  margin: auto;
+
+}

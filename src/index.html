@@ -7,8 +7,31 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+    <header class="bienvenida">
+        <h1> Bienvenid@ </h1>
+    </header>
+
+    <img src= "https://tenor.com/view/gatinho-gato-gato-e-computador-computer-cat-gif-22185203" alt="gatinho">
+
+    <main class="acertijos">
+
+      <h1>En esta página podrás descifrar acertijos y cifrar tus conceptos relacionados con lo que aprendiste. </h1>
+      <h2>Inserta aquí tu acertijo y la CLAVE para descifrarlo</h2>
+      <input type="text" id="stringUno"><br>
+      <input  type="text"  id="offfsetUno">CLAVE<br>
+      <button id ="botonUno">Descifrar</button><br>
+      <p>La respuesta del acertijo que encontraste es: <span id = "spandecifrado"></span></p>
+
+      <h2>Inserta aquí la respuesta y la clave con que quieres cifrar</h2>
+      <input type="text" id="string"><br>
+      <input  type="text"  id="offset">CLAVE<br>
+      <button id ="botonDos">Cifrar</button><br>
+      <p>Tu respuesta cifrada es: <span id ="spancifrado"></span> </p>
+
+    </main>
+
     </div>
     <script src="index.js" type="module"></script>
+
   </body>
 </html>
