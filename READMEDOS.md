@@ -1,6 +1,6 @@
 # Acertijos para aprender
 
-##Índice
+## Índice
 
 1. Principales usuarios del producto
 2. Objetivos del usuario con relación al producto
