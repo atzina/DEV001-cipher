@@ -1,4 +1,4 @@
-# Acertijos para aprender
+# Acertijos en entornos virtuales facilitar el aprendizaje
 
 ## Índice
 
