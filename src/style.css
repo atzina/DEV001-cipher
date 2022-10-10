@@ -1,28 +1,112 @@
 
+header{
+  background-image: url("https://imagenesbonitas.co/wp-content/uploads/2018/01/fotos-de-portadas-para-Twitter-2.jpg");
+  background-position:center;
+  background-size: contain;
+  text-align: center;
+  margin-top: 10px;
+  color: black;
+  font-family: 'Carter One', cursive;
+}
+nav{
+  font-family: monospace;
+  text-align:center;
+  color:#EFEDDC;
+  font-size: 20px;
+}
+
 body {
-  background-color: #000;
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/154/166/515/background-black-blackboard-board-wallpaper-preview.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
 }
 
-.bienvenida {
-  text-align: center;
-  margin-top: 20px;
-  color:crimson;
-}
-
 .acertijos {
-  background-color: #000;
-  color:#CC3333;
+  display: flex;
+  float:left;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 auto;
+  justify-content:space-around;
+  background-color: #211F30;
+  color:#E29930;
   border:2px;
   font-family: monospace;
   border-color: blue;
   border-style: hidden;
   border-radius: 12px;
   padding: 5px;
-  width:500px;
+  width:900px;
   height:700px;
-  margin: auto;
+  margin:inherit;
 
+}
+.textuno{
+  border-radius: 8px;
+  font-size: 16px;
+}
+.inputuno{
+  width: 70px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.botonUno{
+  background-color: #009C8C;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.textdos{
+  border-radius: 8px;
+  font-size: 16px;
+}
+.inputdos{
+  width: 70px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.botonDos{
+  background-color: #009C8C;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.resultado{
+  color:crimson;
+}
+.resultadosegundo{
+  color:crimson;
+}
+
+aside {
+  font-family: monospace;
+  color:#EFEDDC;
+  float: none;
+  margin-left:950px;
+  margin-right: 30px;
+  margin-top: 100px;
+  font-size: 14px;
+  text-align:justify;
+}
+.final{
+  color:#009C8C;
+  display: flex;
+  text-align: center;
+  margin-top: 50px;
+}
+footer{
+  font-family: monospace;
+  color: #E29930;
+  font-size: 16px;
+  margin-top: 40px;
 }

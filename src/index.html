@@ -4,31 +4,81 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Dancing+Script&family=DynaPuff&display=swap" rel="stylesheet">
   </head>
+
   <body>
     <div id="root">
-    <header class="bienvenida">
-        <h1> Bienvenid@ </h1>
+    <header>
+        <h1> Bienvenid@ </h1><br>
     </header>
-
-    <img src= "https://tenor.com/view/gatinho-gato-gato-e-computador-computer-cat-gif-22185203" alt="gatinho">
+    <nav>
+      <h1>Descifra y cifra respuestas de Acertijos sobre lo que aprendes. </h1>
+    </nav>
 
     <main class="acertijos">
 
-      <h1>En esta página podrás descifrar acertijos y cifrar tus conceptos relacionados con lo que aprendiste. </h1>
-      <h2>Inserta aquí tu acertijo y la CLAVE para descifrarlo</h2>
-      <input type="text" id="stringUno"><br>
-      <input  type="text"  id="offfsetUno">CLAVE<br>
-      <button id ="botonUno">Descifrar</button><br>
-      <p>La respuesta del acertijo que encontraste es: <span id = "spandecifrado"></span></p>
+    <section>
 
-      <h2>Inserta aquí la respuesta y la clave con que quieres cifrar</h2>
-      <input type="text" id="string"><br>
-      <input  type="text"  id="offset">CLAVE<br>
-      <button id ="botonDos">Cifrar</button><br>
-      <p>Tu respuesta cifrada es: <span id ="spancifrado"></span> </p>
+      <h1>Inserta aquí la respuesta cifrada y la CLAVE para DESCIFRAR</h1>
+    </section>
+    <section class="botones">
+        <input type="text" id="stringUno" class="textuno"><br>
+        <input  type="text"  id="offsetUno" class="inputuno">CLAVE<br>
+        <button id ="botonUno" class="botonUno">Descifrar</button><br>
+    </section>
+    <section class="resultado">
+        <h2>La respuesta del acertijo que encontraste es: <span id = "spandecifrado"></span></h2>
+    </section>
+
+    <section>
+      <h1>Inserta aquí la respuesta y la clave para CIFRAR</h1>
+    </section>
+
+    <section class="otrosbotones">
+      <input type="text" id="string" class="textdos"><br>
+      <input  type="text"  id="offset" class="inputdos">CLAVE<br>
+      <button id ="botonDos" class="botonDos">Cifrar</button><br>
+    </section>
+    <section class="resultadosegundo">
+      <h2>Tu respuesta cifrada es: <span id ="spancifrado"></span> </h2>
+    </section>
 
     </main>
+    <aside class="ejemplo">
+      <h3>Estos son ejemplos de acertijos</h3><br>
+      <p>
+        Para no perderte en caos, me necesitas: <br>
+        Guardo las versiones del código que editas.<br>
+        Conmigo puedes trabajar con los demás,<br>
+        aunque no los veas jamás.<br>
+        RESPUESTA: HDN VXI <br>
+        CLAVE: 15<br>
+      </p>
+      <p>
+        Tenemos fama de ser muy listos, <br>
+        porque nos tienes que llamar para "razonar" <br>
+        y así mostrarte la verdad o falsedad <br>
+        de todo lo que quieres preguntar. <br>
+        RESPUESTA: YZOBKNYBOC VYQSMYC <br>
+        CLAVE: 10
+      </p>
+      <section class="final">
+      <h3>Hacer acertijos te ayudará a retener mejor lo que has aprendido, sobretodo a recordarlo.<br>
+      Reuniremos todos los acertijos que mandes a una página para que todas podamos leerlos y tratar de adivinarlos antes de decifrar sus respuestas :)
+      </h3>
+      </section>
+    </aside>
+    <footer>
+      <ul>
+        <li>Ve a la página donde estan todos los acertijos</li>
+        <li>Click aquí para enviar tus acertijos</li>
+      </ul>
+
+      </ul>
+    </footer>
 
     </div>
     <script src="index.js" type="module"></script>

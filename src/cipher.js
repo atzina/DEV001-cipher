@@ -2,10 +2,11 @@
 const cipher = {
 
 encode:  function(offset, string) {
-
-
-  let cifradaConClave = " ";//resultado
-  let palabraConClave = " ";
+  if(typeof offset !== 'number'|| typeof string !== 'string'){
+    throw new TypeError ('incorrect');
+  }
+  let cifradaConClave = "";//resultado
+  let palabraConClave = "";
 
 
     for(var i=0; i<string.length; i++){
@@ -19,7 +20,7 @@ encode:  function(offset, string) {
         //cifradaConClave=string.charCodeAt(i) - 65 +parseInt(offset))%26)+65;
 
       }else if(palabraAscci === 32){
-        cifradaConClave - 32;
+        palabraConClave =32;
 
       }
 
@@ -34,14 +35,26 @@ return cifradaConClave;
 
 
 },
-decode: function(offfsetUno, stringUno) {
+decode: function(offsetUno, stringUno) {
+  if(typeof offsetUno !== 'number'|| typeof stringUno !== 'string'){
+    throw new TypeError ('incorrect');
+  }
 
-  let decifradaConClave = " ";
+  let decifradaConClave = "";//resultado
+  let acertijoSinClave = "";
 
   for(var i=0; i<stringUno.length; i++){
     let acertijoAscci= stringUno.charCodeAt(i);
-    let acertijoConClave = ((acertijoAscci + 65 - parseInt(offfsetUno))%26) + 65;
-    decifradaConClave += String.fromCharCode(acertijoConClave);
+
+    if(acertijoAscci>=65 && acertijoAscci<=90){
+        acertijoSinClave = ((acertijoAscci + 65 - parseInt(offsetUno))%26) + 65;
+
+    }else if(acertijoAscci===32) {
+      acertijoSinClave =32;
+
+    }
+
+    decifradaConClave += String.fromCharCode(acertijoSinClave);
   }
   return decifradaConClave;
 
