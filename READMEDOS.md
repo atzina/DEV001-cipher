@@ -1,9 +1,9 @@
-# Acertijos en entornos virtuales para facilitar el aprendizaje.
+﻿# Acertijos en entornos virtuales para facilitar el aprendizaje.
 
 
 
 ## Índice
-## 1. Descripción del producto.
+## 1. Descripción del producto.xyz
 ## 2. Sobre el usuario.
 ## 3. Objetivos relacionados al usuario.
 ## 4. Puntos de intervención que busca el producto.
